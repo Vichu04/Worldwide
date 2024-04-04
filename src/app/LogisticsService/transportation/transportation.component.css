@@ -1,0 +1,58 @@
+.container-fluid {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px; */
+    padding-left: 0%;
+    margin-left: 0%;
+}
+
+h3 {
+    padding-left: 5vw;
+    padding-top: 2vw;
+}
+
+img {
+    align-items: center;
+    padding-left: 10vw;
+    width: 80vw;
+    height: 400px;
+}
+
+.summary {
+    font-size: medium;
+    align-content: stretch;
+    font-weight: 450;
+    font-family: 'Segoe UI';
+    text-indent: 50px;
+    padding-top: 11%;
+}
+
+h5 {
+    text-indent: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    image-resolution: 300dpi;
+}
+.layered-image {
+    z-index: 0;
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    padding-right: 2vw;
+    background: linear-gradient(to left, transparent 0, transparent 100px
+            /*edit this value*/
+            , white 90%),
+
+        url("../../../assets/images/truckTransportation.jpg") center/cover;
+}
+
+.text {
+    z-index: 100;
+    font-size: 40px;
+    padding-right: 50%;
+    padding-top: 11%;
+    padding-left: 4vw;
+}

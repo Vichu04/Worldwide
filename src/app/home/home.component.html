@@ -1,0 +1,88 @@
+<!-- <section style="position: relative;">
+  <div class="img-box">
+    <div class="imgcontainer">
+      <img src="assets/images/HomeNew.jpg" style="height: 85vh;">
+      <div class="centered text-white" style="background-color: rgba(0, 0, 0, 0.5)">
+        <div class="" style="padding: 10px;">
+          <h4>One Stop Solution for </h4>
+          <ul class="ftSz">
+            <li>Supply Chain Management</li>
+            <li>Storage, Warehousing, Consolidations and Distribution</li>
+            <li>Freight Forwarding (Cargo Ship, Air Freight & Trucking)</li>
+            <li>NVOCC Operations</li>
+            <li>Customs Clearance Services (Import, Export & In-Bond)</li>
+            <li>Inland Transportation (Trucking, Rail & Drayage)</li>
+            <li>Insurance</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</section> -->
+
+
+<section style="position: relative;">
+
+  <div class="container-fluid">
+    <div class="layered-image">
+      <div class="text">
+        <!-- style="color: blue;" -->
+        <div class=""  style="padding: 10px;">
+          <h4 style="font-size: 2vw; font-weight: 600;">One Stop Solution for </h4>
+          <ul class="" style="font-size: 1.5vw; font-weight: 400;">
+            <li>Supply Chain Management</li>
+            <li>Storage, Warehousing, Consolidations and Distribution</li>
+            <li>Freight Forwarding (Cargo Ship, Air Freight & Trucking)</li>
+            <li>NVOCC Operations</li>
+            <li>Customs Clearance Services (Import, Export & In-Bond)</li>
+            <li>Inland Transportation (Trucking, Rail & Drayage)</li>
+            <li>Insurance</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="container-fluid d-flex text-center justify-content-between" style="background-color: #fdfdfd;">
+
+  <div  class="mx-auto">
+    <a [routerLink]="['/AirCargo']">
+      <div class="my-fancy-container">
+        <i class="fa-solid fa-plane-departure" style="font-size: 75px;"></i><br>
+        <span style="font-size: 22px;">Air Frieght</span>
+      </div>
+    </a>
+    <a [routerLink]="['/OceanCargo']">
+      <div class="my-fancy-container">
+        <i class="fa-solid fa-ship" style="font-size: 75px; "></i><br>
+        <span style="font-size: 22px;" routerLink="/OceanCargo">Ocean Frieght</span>
+      </div>
+    </a>
+    <a [routerLink]="['/Transportation']">
+      <div class="my-fancy-container">
+        <i class="fa-solid fa-truck-fast" style="font-size: 75px;"></i><br>
+        <span style="font-size: 22px;" routerLink="/transportation">Transportation</span>
+      </div>
+    </a>
+    <a [routerLink]="['/Warehousing']">
+      <div class="my-fancy-container">
+        <i class="fa-solid fa-warehouse" style="font-size: 75px;"></i><br>
+        <span style="font-size: 22px;" routerLink="/Warehousing">Warehousing</span>
+      </div>
+    </a>
+    <a [routerLink]="['/Customs']">
+      <div class="my-fancy-container">
+        <i class="fa-solid fa-earth-asia" style="font-size: 75px;"></i><br>
+        <span style="font-size: 22px;" routerLink="/Customs">Customs Brokerage</span>
+      </div>
+    </a>
+  </div>
+
+</section>
+
+<app-license-carousal></app-license-carousal>

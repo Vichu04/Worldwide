@@ -1,0 +1,38 @@
+.z-in{
+    z-index: 100;
+}
+
+img{
+    padding-left: 2vw;
+    width: auto;
+}
+.modal-body{
+    z-index: 104;
+}
+#unit{
+    padding-left: 10px;
+}
+.radio-button {
+    padding-left: 10px; /* Adjust as needed */
+  }
+.flotform
+{
+    
+    z-index: 100;
+    top: 92vh;
+    left: 87.5vw;
+    width: max-content;
+    /* transform: rotate(9deg); */
+    margin-bottom: 0px;
+    position: fixed;
+    border-top-color:rgb(175, 172, 194);
+    border-color: cornflowerblue;
+    background-color: #6271f8;
+    color: rgb(238, 238, 241);
+    border-radius: 10px;
+    font-weight: 600;
+    /* -ms-transform:rotate(-90deg); 
+    -moz-transform:rotate(-90deg); 
+    -webkit-transform:rotate(-90deg); 
+    -o-transform:rotate(-90deg);  */
+}

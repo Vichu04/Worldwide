@@ -1,0 +1,86 @@
+.container-fluid {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px; */
+    padding-left: 0%;
+    margin-left: 0%;
+    padding-right: 0%;
+}
+
+.summary {
+    font-size: medium;
+    align-content: stretch;
+    font-weight: 450;
+    text-indent: 60px;
+}
+.d-flex
+{
+    padding-left: 2%;
+}
+.special-card {
+    /* create a custom class so you 
+       do not run into specificity issues 
+       against bootstraps styles
+       which tends to work better than using !important 
+       (future you will thank you later)*/
+    
+      background-color: rgba(245, 245, 245, 0.1);
+      /* opacity: .4; */
+    }
+.locCard {
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-bottom: 1%;
+    background-image: url("../../assets/images/map.jpg");
+}
+.col
+{
+    padding: 10px;
+}
+.card-body,.card{
+ padding-left: 1%;
+ padding: 1%;
+ width: max-content;
+}
+
+h5 {
+    text-indent: 30px;
+}
+
+.row
+{
+    justify-content: left;
+}
+
+.col{
+    width: max-content;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    image-resolution: 300dpi;
+}
+
+.layered-image {
+    z-index: 0;
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    padding-right: 2vw;
+    background: url("../../assets/images/contactbanner.jpeg") center/cover;
+}
+
+h3 {
+    padding-left: 4%;
+    color: rgba(45, 47, 173, 0.918);
+}
+
+.text {
+    z-index: 100;
+    font-size: 40px;
+    padding-right: 50%;
+    padding-top: 8%;
+    padding-left: 4vw;
+    color: white;
+}
