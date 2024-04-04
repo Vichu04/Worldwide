@@ -1,0 +1,15 @@
+{
+  "routes": [
+    "/AboutUs",
+    "/AirCargo",
+    "/ContactUs",
+    "/ContainerNotes",
+    "/Customs",
+    "/Documents",
+    "/home",
+    "/IncoTerms",
+    "/OceanCargo",
+    "/Transportation",
+    "/Warehousing"
+  ]
+}
